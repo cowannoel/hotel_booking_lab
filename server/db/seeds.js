@@ -5,12 +5,17 @@ db.bookings.insertMany([
 {
   names: "Noel",
   email: "@me",
-  status: "true"
+  status: "checkedIn"
 },
 {
   names: "GeeGee",
   email: "@you",
-  status: "false"
+  status: "checkedOut"
+},
+{
+  names: "zsolt",
+  email: "@him",
+  status: "notCheckedIn"
 }
 
 ]);
