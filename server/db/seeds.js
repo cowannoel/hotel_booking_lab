@@ -3,19 +3,22 @@ db.dropDatabase();
 
 db.bookings.insertMany([
 {
-  names: "Noel",
+  firstName: "Noel",
+  lastName: "Cowan",
   email: "@me",
-  status: "checkedIn"
+  status: true
 },
 {
-  names: "GeeGee",
+  firstName: "GeeGee",
+  lastName: "Mercier",
   email: "@you",
-  status: "checkedOut"
+  status: false
 },
 {
-  names: "zsolt",
+  firstName: "zsolt",
+  lastName: "Padoba...",
   email: "@him",
-  status: "notCheckedIn"
+  status: true
 }
 
 ]);
